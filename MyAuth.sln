@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{E2283EAE-81FB-44A6-962D-58FA451D51F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAuth.Api_Jwt", "MyAuth.Api_Jwt\MyAuth.Api_Jwt.csproj", "{2E5C8C13-37C0-4F3B-B1E0-CD3252C8D2B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAuth.Core", "MyAuth.Core\MyAuth.Core.csproj", "{5D3D1F9E-D93C-4BF2-86C0-3BC070E85A5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E2283EAE-81FB-44A6-962D-58FA451D51F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2283EAE-81FB-44A6-962D-58FA451D51F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2283EAE-81FB-44A6-962D-58FA451D51F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5C8C13-37C0-4F3B-B1E0-CD3252C8D2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5C8C13-37C0-4F3B-B1E0-CD3252C8D2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5C8C13-37C0-4F3B-B1E0-CD3252C8D2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5C8C13-37C0-4F3B-B1E0-CD3252C8D2B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3D1F9E-D93C-4BF2-86C0-3BC070E85A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3D1F9E-D93C-4BF2-86C0-3BC070E85A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3D1F9E-D93C-4BF2-86C0-3BC070E85A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3D1F9E-D93C-4BF2-86C0-3BC070E85A5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
